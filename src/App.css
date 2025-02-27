@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-without-justify {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column-without-justify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
